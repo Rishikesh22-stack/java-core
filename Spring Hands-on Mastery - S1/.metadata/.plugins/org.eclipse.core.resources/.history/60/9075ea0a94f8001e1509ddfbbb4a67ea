@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+    <!-- Battery Bean Definition -->
+    <bean id="battery" class="com.mphasis.model.Battery">
+        <property name="productId" value="B100"/>
+        <property name="name" value="AAA Battery"/>
+        <property name="price" value="2.99"/>
+        <property name="rechargeable" value="true"/>
+    </bean>
+ 
+    <!-- Disc Bean Definition -->
+    <bean id="disc" class="com.mphasis.model.Disc">
+        <property name="productId" value="D200"/>
+        <property name="name" value="CD-RW"/>
+        <property name="price" value="1.49"/>
+        <property name="capacity" value="700"/>
+    </bean>
+ 
+</beans>
